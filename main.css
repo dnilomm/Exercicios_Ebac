@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 490px;
+    width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    height: 50px;
+    background-color:  #0d1a3bee;
+}
+
+h3 {
+    color: #fff;
+}
+
+label {
+    display: flex;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    margin-left: 3px;
+    color: rgb(243, 37, 37);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+input {
+    margin-left: 3px;
+}
+
+
+button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 480px;
+    margin-left: 5px;
+    background-color: #27ae60;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+section {
+    background-image: url(./dacao.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
